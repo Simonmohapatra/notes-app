@@ -1,16 +1,97 @@
-# React + Vite
+#  Notes App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive Notes application built with **React**, **Tailwind CSS**, and **Lucide React**. Users can create, view, and delete notes with a clean, minimal, and responsive interface.
 
-Currently, two official plugins are available:
+##  Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+*  Create notes with a title and description
+*  Delete notes with a confirmation prompt
+*  Prevent empty note submissions
+*  Fully responsive design
+*  Modern dark-themed UI built with Tailwind CSS
+*  Uses React Hooks (`useState`) for state management
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+##  Tech Stack
 
-## Expanding the ESLint configuration
+* React
+* Tailwind CSS
+* Lucide React
+* JavaScript (ES6+)
+* Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📂 Project Structure
+
+```text
+notes-app/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+├── README.md
+└── vite.config.js
+```
+
+---
+
+## 🚀 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Simonmohapatra/notes-app.git
+```
+
+Navigate into the project directory:
+
+```bash
+cd notes-app
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+##  Usage
+
+1. Enter a note title.
+2. Add your note content.
+3. Click **Create Note**.
+4. Your notes will appear on the right.
+5. Click the trash icon to delete a note.
+
+
+---
+
+##  License
+
+This project is licensed under the MIT License.
+
+---
+
+##  Author
+
+**Simon Mohapatra**
+
+If you like this project, consider giving it a ⭐ on GitHub!
